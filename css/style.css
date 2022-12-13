@@ -1,0 +1,232 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+*{
+    margin:0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body { background-color: antiquewhite;}
+.navlogo{
+    padding-left: 30px;
+    width: 35%;
+}
+.navtitle{
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size:20px;
+}
+.nav-link a:hover{
+    background-color: black;
+}
+.slide{
+    width: 100%;
+}
+.about{
+    padding-top: 10px;
+    background-color:#ccc;
+}
+.aboutdesc{
+    font-size: 1rem;
+    color: black;
+    padding: 1rem 3rem;
+    line-height: 1.8;    
+}
+.imgabout{
+    padding: 10px;
+    width: 100%;
+    height:75%;
+}
+.counting{
+    width: 100%;
+    padding: 2rem 5%;
+    margin: 1rem 0;
+    min-height: 15rem;  
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex; 
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center; 
+    justify-content: center; 
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    gap: 3rem;
+    background: -webkit-linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../img/Counter.png");
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../img/Counter.png");
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.counting .box{
+    -webkit-box-flex: 1;
+    -ms-flex:1 1 25rem;
+        flex:1 1 25rem;
+    text-align: center;
+    padding: 2rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+}
+
+.counting .box i{
+    color: white;
+    font-size: 6rem;
+    width: 6rem;
+    padding-bottom: 1rem;
+    text-align: center;
+}
+
+.counting .box .count{
+    font-size: 5rem;
+    font-weight: 500;
+    color: white;
+    padding-bottom: 0.5rem;
+}
+
+.counting .box h3{
+    font-size: 2rem;
+    font-weight: 400;
+    color: white;
+}
+
+.menusample{
+    background-color:white;
+    padding-left: 15px;
+}
+.jdsub{
+    text-align: center;
+}
+
+/*footer*/
+.footer{
+    background-color: #000;
+    padding: 2rem 5%;
+}
+
+.footer .box-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+    gap: 3rem;
+    padding-bottom: 1rem;
+} 
+
+.footer-item > p{
+    padding-top: 2rem;
+} 
+
+.footer-item p{
+    color: var(--white); 
+    font-size: 1.6rem;
+    line-height: 1.6;
+}
+
+.footer-item h2{ 
+    color: var(--white);
+    font-size: 2.5rem;
+    font-weight: 500;
+    letter-spacing: 0.2rem;
+    padding-bottom: 2rem;
+}
+
+.footer-item .timing h3{
+    color: var(--main-color);
+    font-size: 2rem;
+    font-weight: 450;
+}
+
+.footer-item .timing p{
+    margin: 0.5rem 0;
+}
+
+.footer-item .info p{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 1rem;
+}
+
+.footer-item .info i{
+    color: var(--main-color);
+}
+
+.footer-item .info a,
+.footer-item .info p{ 
+    font-size: 1.6rem;
+    color: var(--white);
+}
+
+.footer-item .links p:hover a{
+    padding-left: 1.5rem;
+}
+
+.footer-item .social{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    gap: 1rem;
+    margin: 2rem 0;
+}
+
+.footer-item .social a{
+    display: inline-block;
+    height: 4rem;
+    width: 4rem;
+    background-color: var(--white);
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.footer-item .social a i{
+    color: #000;
+    font-size: 2rem;
+}
+
+.footer-item .social a:hover{
+    background-color: #000;
+}
+
+.footer-item .social a:hover i{
+    color: #fff;
+}
+
+.footer-item .gmail{
+    text-transform: none;
+}
+
+.footer .content{
+    text-align: center;
+    padding: 2rem 0;
+    border-top: 0.2rem solid #fff;
+}
+
+.footer .content p{
+    font-size: 2rem;
+    color: #fff;
+}
+
+.footer .content p span{
+    color: #000;
+}
