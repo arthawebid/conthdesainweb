@@ -17,6 +17,10 @@ body { background-color: antiquewhite;}
 .nav-link a:hover{
     background-color: black;
 }
+.spasi{
+    padding:50px 0px 10px;
+
+}
 .slide{
     width: 100%;
 }
